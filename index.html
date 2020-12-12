@@ -5,43 +5,52 @@
   <meta charset="utf-8">
   <title>Мамкины хакеры</title>
   <link rel="icon" href="#">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
-  <header class="row">
-    <nav class="col-2">
-      <ul class="nav flex-column position-fixed">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Основная страница</a></li>
-        <li class="nav-item"><a class="nav-link" href="links.html">Полезные ссылки</a></li>
-        <li class="nav-item"><a class="nav-link" href="info.html">Различная информация</a></li>
-        <li class="nav-item"><a class="nav-link" href="rival.html">Соперничество</a></li>
-      </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Навигация</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Основная страница</a></li>
+            <li class="nav-item"><a class="nav-link" href="links.html">Полезные ссылки</a></li>
+            <li class="nav-item"><a class="nav-link" href="info.html">Различная информация</a></li>
+            <li class="nav-item"><a class="nav-link" href="rival.html">Соперничество</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <div class="col-9">
+    <div>
       <h1>Простой сайт с информацией о веб-разработке</h1>
       <p>И так. Ты решился начать изучать веб-программирование, но не знаешь с чего начать? Не беспокойся. Дядя Миша потратил пару дней на поиск всей нужной для тебя информации.</p>
     </div>
   </header>
 
-  <main class="container-fluid col-9">
-    <article class="p-3 mb-2 bg-primary text-white">
+  <main>
+    <article>
       <ul>
-        <li class="p-3 mb-2 bg-light text-dark"><a href="https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327">https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327</a> Основа основ. На этом сайте на английском языке написаны все важные вещи которые должен знать веб разработчик в 2К2К алло ебать будущее уже наступило. По факту там даны ссылки и названия тех вещей которые ты должен начать учить. РИКАМИНДУЮ!!1</li>
-        <li class="p-3 mb-2 bg-dark text-white"><a href="https://habr.com/ru/post/495800/">https://habr.com/ru/post/495800/</a> Небольшой пост в котором уже на русском языке просто и кратко написано что нужно учить. По сути повторяет информацию с предыдущего сайта но уже точечно.</li>
-        <li class="p-3 mb-2 bg-light text-dark"><a href="http://htmlbook.ru/">http://htmlbook.ru/</a> Сайт с инфой по хтмл и цсс. Там же есть простенькие учебники и гайды.</li>
-        <li class="p-3 mb-2 bg-dark text-white"><a href="https://htmlbase.ru">https://htmlbase.ru</a> Хорший сайт с инфой и задачками по хтмл и цсс.</li>
-        <li class="p-3 mb-2 bg-light text-dark">Книга “Изучаем HTML, XHTML и CSS от Эрика Фримена”. Хорошая книжка для совсем основ.</li>
-        <li class="p-3 mb-2 bg-dark text-white">Книга Learn Enough HTML to Be Dangerous An introduction to HTML тоже хорошая для основ на английском.</li>
-        <li class="p-3 mb-2 bg-light text-dark">Книга HTML5 и CSS3 Разработка сайтов для любых браузеров и устройств пока не читал, но отзывы хорошие.</li>
-        <li class="p-3 mb-2 bg-dark text-white"><a href="https://htmlacademy.ru/courses">https://htmlacademy.ru/courses</a> есть отличные тренажоры по многим вещам.</li>
-        <li class="p-3 mb-2 bg-light text-dark"><a href="https://ru.code-basics.com/">https://ru.code-basics.com/</a> тоже всякие задания и тд.</li>
-        <li class="p-3 mb-2 bg-dark text-white">Книга Morgan N JavaScript для детей - пока не читал, но хорошие отзывы.</li>
-        <li class="p-3 mb-2 bg-light text-dark"><a href="https://learn.javascript.ru/intro">https://learn.javascript.ru/intro</a> Основной учебник который ты должен штудировать по жаваскрипту.</li>
+        <li><a href="https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327">https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327</a> Основа основ. На этом сайте на английском языке написаны все важные
+          вещи которые должен знать веб разработчик в 2К2К алло ебать будущее уже наступило. По факту там даны ссылки и названия тех вещей которые ты должен начать учить. РИКАМИНДУЮ!!1</li>
+        <li><a href="https://habr.com/ru/post/495800/">https://habr.com/ru/post/495800/</a> Небольшой пост в котором уже на русском языке просто и кратко написано что нужно учить. По сути повторяет информацию с предыдущего сайта но уже точечно.</li>
+        <li><a href="http://htmlbook.ru/">http://htmlbook.ru/</a> Сайт с инфой по хтмл и цсс. Там же есть простенькие учебники и гайды.</li>
+        <li><a href="https://htmlbase.ru">https://htmlbase.ru</a> Хорший сайт с инфой и задачками по хтмл и цсс.</li>
+        <li>Книга “Изучаем HTML, XHTML и CSS от Эрика Фримена”. Хорошая книжка для совсем основ.</li>
+        <li>Книга Learn Enough HTML to Be Dangerous An introduction to HTML тоже хорошая для основ на английском.</li>
+        <li>Книга HTML5 и CSS3 Разработка сайтов для любых браузеров и устройств пока не читал, но отзывы хорошие.</li>
+        <li><a href="https://htmlacademy.ru/courses">https://htmlacademy.ru/courses</a> есть отличные тренажоры по многим вещам.</li>
+        <li><a href="https://ru.code-basics.com/">https://ru.code-basics.com/</a> тоже всякие задания и тд.</li>
+        <li>Книга Morgan N JavaScript для детей - пока не читал, но хорошие отзывы.</li>
+        <li><a href="https://learn.javascript.ru/intro">https://learn.javascript.ru/intro</a> Основной учебник который ты должен штудировать по жаваскрипту.</li>
       </ul>
     </article>
-    <article class="container-fluid">
+    <article>
       <p>Если хуе-мое просто все написать, то ты должен сразу нырять в хтмл+цсс+джаваскрипт+реакт. Потому что все работает на них. По факту это самый простой способ войти во фронтэнд (то как выглядит сайт). Есть еще бэкэнд (то как работает сайт).
         Хтмл довольно простой язык, который будет ясен после прочтения книги или даже пары гайдов (также в конце есть ссылки на видеокурсы на ютюбе по хтмл, очень хорошие). Все это закрепляется практикой. Затем браться нужно за цсс. Тут, на мой
         взгляд, чуть сложнее чем хтмл, но эти вещи все работают в паре. Затем уже нужен джс и, судя по вакансиям, реакт.</p>
@@ -59,15 +68,14 @@
     </article>
   </main>
 
-  <footer class="container-fluid">
+  <footer>
     <address>
       <p>Создано при поддержке трех долбоебов</p>
-      <time>15/11/2020</time>
     </address>
-  </footer col-12>
+  </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
