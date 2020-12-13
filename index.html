@@ -1,81 +1,192 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ru" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <title>Мамкины хакеры</title>
   <link rel="icon" href="#">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+    <nav id="topSection" class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Навигация</a>
+        <a class="navbar-brand" id="top">Навигация</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Основная страница</a></li>
-            <li class="nav-item"><a class="nav-link" href="links.html">Полезные ссылки</a></li>
-            <li class="nav-item"><a class="nav-link" href="info.html">Различная информация</a></li>
+            <li class="nav-item"><a class="nav-link" href="#links">Полезные ссылки</a></li>
+            <li class="nav-item"><a class="nav-link" href="#info">Различная информация</a></li>
             <li class="nav-item"><a class="nav-link" href="rival.html">Соперничество</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div>
-      <h1>Простой сайт с информацией о веб-разработке</h1>
-      <p>И так. Ты решился начать изучать веб-программирование, но не знаешь с чего начать? Не беспокойся. Дядя Миша потратил пару дней на поиск всей нужной для тебя информации.</p>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="w-75 p-3">
+          <h1 class="text-center">Простой сайт с информацией о веб-разработке</h1>
+          <p class="text-center">И так. Ты решился начать изучать веб-программирование, но не знаешь с чего начать? Не беспокойся. Дядя Миша потратил пару дней на поиск всей нужной для тебя информации.</p>
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
-    <article>
-      <ul>
-        <li><a href="https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327">https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327</a> Основа основ. На этом сайте на английском языке написаны все важные
-          вещи которые должен знать веб разработчик в 2К2К алло ебать будущее уже наступило. По факту там даны ссылки и названия тех вещей которые ты должен начать учить. РИКАМИНДУЮ!!1</li>
-        <li><a href="https://habr.com/ru/post/495800/">https://habr.com/ru/post/495800/</a> Небольшой пост в котором уже на русском языке просто и кратко написано что нужно учить. По сути повторяет информацию с предыдущего сайта но уже точечно.</li>
-        <li><a href="http://htmlbook.ru/">http://htmlbook.ru/</a> Сайт с инфой по хтмл и цсс. Там же есть простенькие учебники и гайды.</li>
-        <li><a href="https://htmlbase.ru">https://htmlbase.ru</a> Хорший сайт с инфой и задачками по хтмл и цсс.</li>
-        <li>Книга “Изучаем HTML, XHTML и CSS от Эрика Фримена”. Хорошая книжка для совсем основ.</li>
-        <li>Книга Learn Enough HTML to Be Dangerous An introduction to HTML тоже хорошая для основ на английском.</li>
-        <li>Книга HTML5 и CSS3 Разработка сайтов для любых браузеров и устройств пока не читал, но отзывы хорошие.</li>
-        <li><a href="https://htmlacademy.ru/courses">https://htmlacademy.ru/courses</a> есть отличные тренажоры по многим вещам.</li>
-        <li><a href="https://ru.code-basics.com/">https://ru.code-basics.com/</a> тоже всякие задания и тд.</li>
-        <li>Книга Morgan N JavaScript для детей - пока не читал, но хорошие отзывы.</li>
-        <li><a href="https://learn.javascript.ru/intro">https://learn.javascript.ru/intro</a> Основной учебник который ты должен штудировать по жаваскрипту.</li>
-      </ul>
+    <article class="container article1">
+      <div class="row justify-content-center">
+        <div class="w-75 p-3">
+          <a id="osnova"></a>
+          <img src="img/gop.jpg" class="w-100 p-3" alt="Гопник за ПК">
+          <h2 class="text-center">Немного ссылок на основную информацию</h2>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-primary"><a href="https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327">https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327</a> Основа основ. На
+              этом
+              сайте на английском языке написаны все важные
+              вещи которые должен знать веб разработчик в 2К2К алло ебать будущее уже наступило. По факту там даны ссылки и названия тех вещей которые ты должен начать учить. РИКАМИНДУЮ!!1</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://habr.com/ru/post/495800/">https://habr.com/ru/post/495800/</a> Небольшой пост в котором уже на русском языке просто и кратко написано что нужно учить. По сути
+              повторяет
+              информацию с предыдущего сайта но уже точечно.</li>
+            <li class="list-group-item list-group-item-primary"><a href="http://htmlbook.ru/">http://htmlbook.ru/</a> Сайт с инфой по хтмл и цсс. Там же есть простенькие учебники и гайды.</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://htmlbase.ru">https://htmlbase.ru</a> Хорший сайт с инфой и задачками по хтмл и цсс.</li>
+            <li class="list-group-item list-group-item-primary">Книга “Изучаем HTML, XHTML и CSS от Эрика Фримена”. Хорошая книжка для совсем основ.</li>
+            <li class="list-group-item list-group-item-secondary">Книга Learn Enough HTML to Be Dangerous An introduction to HTML тоже хорошая для основ на английском.</li>
+            <li class="list-group-item list-group-item-primary">Книга HTML5 и CSS3 Разработка сайтов для любых браузеров и устройств пока не читал, но отзывы хорошие.</li>
+            <li class="list-group-item list-group-item-primary"><a href="https://htmlacademy.ru/courses">https://htmlacademy.ru/courses</a> есть отличные тренажоры по многим вещам.</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://ru.code-basics.com/">https://ru.code-basics.com/</a> тоже всякие задания и тд.</li>
+            <li class="list-group-item list-group-item-primary">Книга Morgan N JavaScript для детей - пока не читал, но хорошие отзывы.</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://learn.javascript.ru/intro">https://learn.javascript.ru/intro</a> Основной учебник который ты должен штудировать по жаваскрипту.</li>
+          </ul>
+          <p class="text-justify">Если хуе-мое просто все написать, то ты должен сразу нырять в хтмл+цсс+джаваскрипт+реакт. Потому что все работает на них. По факту это самый простой способ войти во фронтэнд (то как выглядит сайт). Есть еще бэкэнд
+            (то как
+            работает сайт).
+            Хтмл довольно простой язык, который будет ясен после прочтения книги или даже пары гайдов (также в конце есть ссылки на видеокурсы на ютюбе по хтмл, очень хорошие). Все это закрепляется практикой. Затем браться нужно за цсс. Тут, на мой
+            взгляд, чуть сложнее чем хтмл, но эти вещи все работают в паре. Затем уже нужен джс и, судя по вакансиям, реакт.</p>
+          <p>Но самое главное тут что? То что если собрался пиздовать в программирование, то надо начинать все самому ручками искать информацию для себя. По ссылкам даны все нужные тебе пункты. Вбиваешь в гугл название, добавляешь к запросу
+            ИЗУЧИТЬ/КУРС
+            НА ЮТЮБЕ/КНИГА/ТУТОРИАЛ ОТ ШКОЛЬНИКА В НОУТПАДЕ НА ЮТЮБЕ и дрочишь информацию. Впитываешь.</p>
+          <p>Также после того как получил хоть какие-то знания, можно таки пройти курсы по программированию от какой-либо академии по интернету:</p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-primary"><a href="https://skillbox.ru/course/frontend-developer/">https://skillbox.ru/course/frontend-developer/</a></li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://geekbrains.ru/professions/frontend_developer">https://geekbrains.ru/professions/frontend_developer</a></li>
+            <li class="list-group-item list-group-item-primary"><a href="https://htmlacademy.ru/profession/frontender">https://htmlacademy.ru/profession/frontender</a></li>
+          </ul>
+          <p>Либо какой-то курс на твое усмотрение. Это конечно по желанию, но многие из этих курсов можно стащить с рутрекера, просто набрав html academy и там все будет. Там же посоветовал бы скачать какой-нибудь курс по FIGMAе (редактор
+            графический,
+            который сейчас почти всегда в веб разработке используется) ну и возможно курсики по фотошопу.</p>
+          <p>Путь нелегкий, но ты справишься. И не забывайте что я сам хуй в стакане и только вкатываюсь в эти вещи.</p>
+        </div>
+      </div>
     </article>
-    <article>
-      <p>Если хуе-мое просто все написать, то ты должен сразу нырять в хтмл+цсс+джаваскрипт+реакт. Потому что все работает на них. По факту это самый простой способ войти во фронтэнд (то как выглядит сайт). Есть еще бэкэнд (то как работает сайт).
-        Хтмл довольно простой язык, который будет ясен после прочтения книги или даже пары гайдов (также в конце есть ссылки на видеокурсы на ютюбе по хтмл, очень хорошие). Все это закрепляется практикой. Затем браться нужно за цсс. Тут, на мой
-        взгляд, чуть сложнее чем хтмл, но эти вещи все работают в паре. Затем уже нужен джс и, судя по вакансиям, реакт.</p>
-      <p>Но самое главное тут что? То что если собрался пиздовать в программирование, то надо начинать все самому ручками искать информацию для себя. По ссылкам даны все нужные тебе пункты. Вбиваешь в гугл название, добавляешь к запросу ИЗУЧИТЬ/КУРС
-        НА ЮТЮБЕ/КНИГА/ТУТОРИАЛ ОТ ШКОЛЬНИКА В НОУТПАДЕ НА ЮТЮБЕ и дрочишь информацию. Впитываешь.</p>
-      <p>Также после того как получил хоть какие-то знания, можно таки пройти курсы по программированию от какой-либо академии по интернету:</p>
-      <ul>
-        <li><a href="https://skillbox.ru/course/frontend-developer/">https://skillbox.ru/course/frontend-developer/</a></li>
-        <li><a href="https://geekbrains.ru/professions/frontend_developer">https://geekbrains.ru/professions/frontend_developer</a></li>
-        <li><a href="https://htmlacademy.ru/profession/frontender">https://htmlacademy.ru/profession/frontender</a></li>
-      </ul>
-      <p>Либо какой-то курс на твое усмотрение. Это конечно по желанию, но многие из этих курсов можно стащить с рутрекера, просто набрав html academy и там все будет. Там же посоветовал бы скачать какой-нибудь курс по FIGMAе (редактор графический,
-        который сейчас почти всегда в веб разработке используется) ну и возможно курсики по фотошопу.</p>
-      <p>Путь нелегкий, но ты справишься. И не забывайте что я сам хуй в стакане и только вкатываюсь в эти вещи.</p>
+
+    <article class="container article2">
+      <div class="row justify-content-center">
+        <div class="w-75 p-3">
+          <a id="links"></a> <a href="#top">Наверх</a>
+          <img src="img/fire.jpg" class="w-100 p-3" alt="Два человепка перед компьютером">
+          <h2 class="text-center">Полезные ссылки на разные видеоролики или курсы</h2>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=_R5a-Kc0pRc&list=PLDyJYA6aTY1nlkG0gBj96XDmDSC4Fy1TO" target="_blank">https://www.youtube.com/watch?v=_R5a-Kc0pRc</a> видео курсы по ХТМЛ
+              неплохие.</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=hft4XYApT44&list=PLDyJYA6aTY1meZ3d08sRILB46OJ-wojF2" target="_blank">https://www.youtube.com/watch?v=hft4XYApT44</a> видеокурсы по цсс неплохие
+            </li>
+            <li class="list-group-item list-group-item-primary"><a href="https://courses.edx.org" target="_blank">https://courses.edx.org</a> Курсы гарварда по программированию.</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo" target="_blank">https://www.youtube.com/watch?v=tpIctyqH29Q</a> тоже какие-то крусы.</li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=rrRZZ_3licM&list=PLo6puixMwuSMIB7x6MNBTNQA3P3Mqo_33" target="_blank">https://www.youtube.com/watch?v=rrRZZ_3licM</a>Курсы, упоминается
+              джаваскрипт</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=JgIG6d3JsZs&list=PL0lO_mIqDDFUGX9k45bZFuz1ixTvUhd7b" target="_blank">https://www.youtube.com/watch?v=JgIG6d3JsZs</a> Тоже видео курсы по
+              джаваскрипту</li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=Bluxbh9CaQ0" target="_blank">https://www.youtube.com/watch?v=Bluxbh9CaQ0</a> еще всякое по джс</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=ORJgdbF4cG8&list=PL30ZzYn5yk1nTwPgLnS1zPxOBjC4vEQ4z" target="_blank">https://www.youtube.com/watch?v=ORJgdbF4cG8</a>и еще джс</li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=3F66FMtJkrg" target="_blank">https://www.youtube.com/watch?v=3F66FMtJkrg</a>и еще джс</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8" target="_blank">https://www.youtube.com/watch?v=gb7gMluAeao</a> судя по отзыву отличные
+              курсы по реакту
+            </li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=jSV2IPQz3ak&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN" target="_blank">https://www.youtube.com/watch?v=jSV2IPQz3ak</a> продолжение по реакту</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/watch?v=Glux40jBsZ8&list=PLcvhF2Wqh7DPD5sRK3lw4bjBsKdgY2bPi" target="_blank">https://www.youtube.com/watch?v=Glux40jBsZ8</a> те же ребята но по джс
+            </li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/watch?v=JgIG6d3JsZs&list=PL0lO_mIqDDFUGX9k45bZFuz1ixTvUhd7b" target="_blank">https://www.youtube.com/watch?v=JgIG6d3JsZs</a> продолжение по джс</li>
+            <li class="list-group-item list-group-item-secondary"><a href="https://www.youtube.com/c/YauhenKavalchuk/videos" target="_blank">https://www.youtube.com/c/YauhenKavalchuk/videos</a> кучи разных видео по разным вещам</li>
+            <li class="list-group-item list-group-item-primary"><a href="https://www.youtube.com/c/BrainsCloud/videos" target="_blank">https://www.youtube.com/c/BrainsCloud/videos</a> разная хуйня</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="container article3">
+      <div class="row justify-content-center">
+        <div class="w-75 p-3">
+          <a id="info"></a> <a href="#top">Наверх</a>
+          <img src="img/pc.jpg" class="w-100 p-3" alt="Два человека думают над тем не опасно ли заниматься программированием">
+          <h2 class="text-center">Информация собранная со всех уголков</h2>
+          <p>Халеварная тема, что проще... крч делай так:<br>
+            1) учи нативный js (всегда пригодятся знания), без библиотек, чисто js<br>
+            2) параллельно читаешь книги по алгоритмам и структурам данных<br>
+            3) потом берешь библиотеки react, vue ( react - больше вакансий, vue - проще для понимания)<br>
+            4) учи typescript, и смежные библиотеки, если реакт учить будешь, то это mobx, redux, rout<br>
+            5) учи node ( именно серверную часть, самый минимум, напиши api простой)<br>
+            6) ssr (next.js, если реакт выбрал)<br>
+            Заведи гитхаб репозиторий и кидай туда весь учебный мусор, гит кста обязательно осваивай сразу, он не сложный, для понимания почитай про гитфлоу<br>
+            После этих шагов пили партфолио, обязательно работа с формами, платежные фичи</p>
+          <p>
+            Завтра ищешь в интернете книжку Dive into python. Похуй если ничего не поймешь. Затем идешь на python.org и изучаешь стандартную библиотеку от корки до корки. Потом зубришь, именно, сука, вызубриваешь конвенцию по написанию питоньего кода
+            -
+            PEP8, чтобы от зубов отскакивало. Когда напишешь свою первую имиджборду, по пути изучив верстку на html+css, скачиваешь и изучаешь любой питоний асинхронный вебсервер, рекомендую Tornado или Gevent. Как переделаешь имиджборду, чтобы
+            выдавала
+            по
+            крайней мере 5 тысяч запросов в секунду, можешь идти дальше - тебя ждет увлекательный мир хайлоада. Apache Hadoop, сверхбыстрые асинхронные key-value хранилища, MapReduce. Отсос хиккующих выблядков / просто неудачников типа рейфага или
+            сисярп/джава-хуесосов, которые сосут хуй по жизни не заставит себя ждать и уже через пол года ты будешь получать такие суммы, что любая баба будет течь при одном упоминании твоей зарплаты.</p>
+          <p>Чтобы стать программером:<br>
+            ◦ Английский<br>
+            ◦ Сериал «Кремниевая долина»<br>
+            ◦ CS50<br>
+            Front end:<br>
+            ◦ HTML + CSS - 160 часов<br>
+            ◦ Flex Box - 20 часов<br>
+            ◦ Медиа запросы. Адаптивная вёрстка - 20 часов<br>
+            ◦ Framework Bootstrap- 20 часов<br>
+            ◦ SCSS - 20 часов<br>
+            Java script<br>
+            ◦ Java script для детей - 160 часов<br>
+            ◦ Java script head first (либо курс на it kamasutra js с нуля) - 160 часов<br>
+            ◦ React путь самурая<br>
+            ◦ React путь самурая 2.0</p>
+          <p>1. Изучаем HTML, XHTML и CSS. by Фримен Эрик & Фримен Элизабет.<br>
+            2. Изучаем программирование на JavaScript by Фримен Эрик & Робсон Элизабет.<br>
+            Одновременно с чтением закрепляем полученные знания:<br>
+            3. <a href="https://www.freecodecamp.org/">https://www.freecodecamp.org/</a><br>
+            4. <a href="https://codepen.io/">https://codepen.io/</a><br>
+            После идем сюда и долбим:<br>
+            5. <a href="https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8">https://www.youtube.com/watch?v=gb7gMluAeao</a><br>
+            Если есть время порешать задачки:<br>
+            6. <a href="http://euler.jakumo.org/problems.html">http://euler.jakumo.org/problems.html</a><br>
+            7. <a href="https://www.codewars.com/">https://www.codewars.com/</a></p>
+          <p>Java Core, The Art of Unit Testing, Head First Design Patterns, Data Structures & Algorithms in Java, Effective Java, Clean Code, Growing Object-Oriented Software Guided by Tests, Java Concurrency in Practice. Плюс к этому - бесплатные
+            курсы
+            на <a href="http://stepik.org">Stepik.org</a> и задачки на <a href="http://leetcode.com">Leetcode.com</a></p>
+        </div>
+      </div>
     </article>
   </main>
 
-  <footer>
-    <address>
-      <p>Создано при поддержке трех долбоебов</p>
-    </address>
+  <footer class="container">
+    <div class="row justify-content-center">
+      <div class="w-75 p-3">
+        <a href="#top">Наверх</a>
+        <address>
+          <p>Создано при поддержке трех долбоебов</p>
+        </address>
+      </div>
+    </div>
   </footer>
-
+  <script src="button.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
